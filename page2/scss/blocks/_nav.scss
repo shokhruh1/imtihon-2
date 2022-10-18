@@ -1,0 +1,52 @@
+.navbarr {
+    display: flex;
+
+    height: 200px;
+    width: 1440px;
+    background-image: url(../../image/nav\ background\ image\ 2.png);
+    background-size: cover;
+    font-family: 'Space Mono', monospace;
+    padding: 72px 0px 72px 165px;
+
+
+
+
+
+
+
+    &__ul {
+        color: rgba(255, 255, 255, 1);
+
+
+        &--li {
+            font-family: 'Space Mono', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            text-align: left;
+
+
+
+        }
+
+
+
+
+
+    }
+
+
+    &__img {
+        position: relative;
+        height: 63px;
+        width: 234px;
+        margin-left: 880px;
+        border-radius: 0px;
+        margin-top: -4px;
+    }
+
+
+}
+
+

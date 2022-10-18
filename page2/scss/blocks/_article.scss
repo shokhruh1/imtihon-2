@@ -1,0 +1,303 @@
+.article {
+    display: flex;
+    align-items: center;
+    margin-top: 210px;
+
+
+    &__text {
+
+        margin-left: 165px;
+        margin-right: 220px;
+
+        &__ul {
+
+            &--li:nth-child(1) {
+                font-family: 'Space Mono', monospace;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: left;
+                color: rgba(73, 85, 103, 1);
+            }
+
+            &--li:nth-child(2) {
+                font-family: 'Space Mono', monospace;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: left;
+                padding-bottom: 24px;
+                color: rgba(73, 85, 103, 1);
+            }
+
+            &--li {
+                color: rgba(147, 156, 170, 1);
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+
+        }
+
+
+
+
+    }
+
+
+
+    &__image {
+
+        &__img {
+            z-index: 1;
+            animation-name: airplan;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            margin-top: -220px;
+            position: absolute;
+
+            &__image {
+                border-radius: 100%;
+
+
+            }
+        }
+
+        &__nextto {
+            width: 445px;
+            height: 445px;
+            background-color: rgba(229, 236, 244, 1);
+            position: absolute;
+            border-radius: 100%;
+            margin-left: 510px;
+            margin-top: -220px;
+
+        }
+
+        &__images {
+            position: absolute;
+            margin-top: 80px;
+            margin-left: -110px;
+            height: 150.4427032470703px;
+            width: 740.0595092773438px;
+            z-index: 1;
+
+
+        }
+
+
+
+
+    }
+
+    @keyframes airplan {
+
+        0% {
+            width: 445px;
+            position: absolute;
+            right: -315px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+            right: 145px;
+
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+            right: 245px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            right: 345px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            right: 445px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            right: 180px;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.article1 {
+    display: flex;
+    align-items: center;
+    margin-top: 450px;
+
+
+    &__text1 {
+
+
+
+        &__ul1 {
+
+            &--li1:nth-child(1) {
+                font-family: 'Space Mono', monospace;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: left;
+                color: rgba(73, 85, 103, 1);
+            }
+
+            &--li1:nth-child(2) {
+                font-family: 'Space Mono', monospace;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: left;
+                padding-bottom: 24px;
+                color: rgba(73, 85, 103, 1);
+            }
+
+            &--li1 {
+                color: rgba(147, 156, 170, 1);
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+
+        }
+
+
+
+
+    }
+
+
+
+    &__image1 {
+
+        margin-left: 190px;
+        margin-right: 630px;
+
+        &__img {
+            animation-name: airplan1;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            position: absolute;
+            margin-top: -220px;
+            z-index: 1;
+        }
+
+        &__nextto1 {
+            width: 445px;
+            height: 445px;
+            background-color: rgba(229, 236, 244, 1);
+            position: absolute;
+            border-radius: 100%;
+            margin-left: -510px;
+            margin-top: -220px;
+
+        }
+
+        &__images1 {
+            position: absolute;
+            margin-left: -365px;
+            height: 150.4427032470703px;
+            width: 740.0595092773438px;
+            margin-top: -221px;
+            z-index: 1;
+
+        }
+
+
+
+
+    }
+
+
+    @keyframes airplan1 {
+
+        0% {
+            width: 445px;
+            position: absolute;
+            left: -290px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+            left: 145px;
+
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+            left: 245px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            left: 345px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            left: 445px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            left: 220px;
+
+        }
+    }
+}
+
+
